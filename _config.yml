@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://zpconline.com
+author: 邹鹏程
+pygments: true
+paginate: 16
