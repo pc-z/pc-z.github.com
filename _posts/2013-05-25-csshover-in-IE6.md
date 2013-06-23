@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 解决IE6不支持hover的方法
+description: "解决IE6不支持hover的方法"
 categories: CSS
 tags: [css, ：hover, IE6]
 ---
