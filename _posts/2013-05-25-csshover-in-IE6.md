@@ -3,7 +3,7 @@ layout: post
 title: 解决IE6不支持hover的方法
 description: "解决IE6不支持hover的方法"
 categories: CSS
-tags: [css, :hover, IE6]
+tags: [css, ：hover, IE6]
 ---
 
 大多数现代浏览器（FF、Chrome、Safari、IE10等）对伪类选择器`:hover`能提供很好的支持，不管是应用到`<a>`标签还是其他标签，然而IE6及更低版本对`：hover`的支持很不理想，如果一定要在IE6及更低版本中使用`:hover`，可以采用以下方法，下载“csshover.htc”[[压缩版]](http://peterned.home.xs4all.nl/htc/csshover3.htc) [[源码版]](http://peterned.home.xs4all.nl/htc/csshover3-source.htc) [[包含以上两种版本]](http://www.xs4all.nl/~peterned/htc/csshover3.zip)文件，将下载后的文件放在与你想要使用`:hover`选择器的页面的同一级目录中（如果不放在同一级目录则要在样式中注意文件的路径问题）：
