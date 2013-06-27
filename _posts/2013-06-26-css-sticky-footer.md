@@ -11,7 +11,7 @@ tags: [sticky footer]
 
 那么今天主要和大家一起学习如何将页脚固定在页面的底部？
 
-## 方法一
+# 方法一
 首先我们来看第一种方法，这种方法是来自于[Matthew James Taylor](http://matthewjamestaylor.com/about)的[《How to keep footers at the bottom of the page》](http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page)。下面我们就一起来看看[Matthew James Taylor](http://matthewjamestaylor.com/about)介绍的方法。
 ### 结构
 {% highlight html %}
@@ -107,7 +107,7 @@ html, body {
 上面就是[Matthew James Taylor](http://matthewjamestaylor.com/about)介绍的如何实现页脚永远固定在页面的底部，如果大家感兴趣可以阅读[原文](http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page)，也可以直接点击这里查看[Demo](http://matthewjamestaylor.com/blog/bottom-footer-demo.htm)。
 
 ---
-## 方法二
+# 方法二
 这种方法是利用footer的margin-top负值来实现footer永远固定在页面的底部效果，下面我们具体看是如何实现的。
 ### 结构
 {% highlight html %}
@@ -192,7 +192,7 @@ html, body {
 大家要是对这种方法感兴趣，你也可以浏览一下《[CSS Sticky Footer](http://www.cssstickyfooter.com/)》和《[Pure Css Sticky Footer](http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/)》，或者直接点击[Demo](http://www.lwis.net/profile/CSS/sticky-footer.html)查看其源代码。
 
 ---
-## 方法三
+# 方法三
 实现在页脚永远固定在页面底部的方法有很多，但是有很多方法是需要使用一些hack或借助javaScrip来实现，那么接下来要说的方法三，仅仅使用了15行的样式代码和一个简单明了的HTML结构实现了效果，并且兼容性强，别的不多说，先看代码。
 ### 结构
 {% highlight html %}
@@ -278,7 +278,7 @@ html, body {
 如果大家对方法三想了解更多可以点击[这里](http://ryanfait.com/resources/footer-stick-to-bottom-of-page/)或者直接从[DEMO](http://ryanfait.com/sticky-footer/)中下载代码自己研究一下。
 
 ---
-## 方法四
+# 方法四
 前面三种方法我们都不需要任何javaScript或jQuery的帮助，让我们实现了页脚永远固定在页面底部的效果，前面三种方法虽然没有使用jQuery等帮助，但我们都额外增加了HTML标签来实现效果。如果你省略了这些HTML标签，再要实现效果就比较困难了，那么此时使用jQuery或javaScript方法来帮助实现是一种很好的办法，下面我们就一起来看第四种方法，通过jQuery来实现页脚永远固定在页面底部的效果。
 ### 结构
 {% highlight html %}
