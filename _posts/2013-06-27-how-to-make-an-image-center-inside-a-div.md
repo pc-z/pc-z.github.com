@@ -1,6 +1,6 @@
 ---
 layout: post
-title: div中的图片垂直居中
+title: DIV中的图片垂直居中
 description: "make an image center inside a div"
 categories: CSS
 tags: [image, center]
